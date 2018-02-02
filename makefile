@@ -9,7 +9,7 @@ clean:
 run: all
 	./pixel
 
-create: run
+image: run
 	convert image.ppm image.png
 
 display: run
